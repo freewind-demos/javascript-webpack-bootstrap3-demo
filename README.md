@@ -14,3 +14,10 @@ webpack
 ```
 
 Then open `index.html` in your browser, you will see a bootstrap button.
+
+How to add `bootstrap-webpack` to your project
+----------------------------------------------
+
+```
+npm install --save bootstrap bootstrap-webpack css-loader exports-loader expose-loader extract-text-webpack-plugin file-loader imports-loader jquery less less-loader style-loader url-loader
+```
