@@ -19,5 +19,7 @@ How to add `bootstrap-webpack` to your project
 ----------------------------------------------
 
 ```
-npm install --save bootstrap bootstrap-webpack css-loader exports-loader expose-loader extract-text-webpack-plugin file-loader imports-loader jquery less less-loader style-loader url-loader
+npm install --save bootstrap bootstrap-webpack jquery
+
+npm install --save-dev less less-loader style-loader url-loader css-loader exports-loader expose-loader extract-text-webpack-plugin file-loader imports-loader
 ```
