@@ -1,4 +1,4 @@
-Webpack Config File Demo
+Webpack Bootstrap3 Demo
 ========================
 
 Use bootstrap3 with webpack. We use `bootstrap-webpack` to make it easy.
