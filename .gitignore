@@ -1,2 +1,7 @@
 node_modules/
 bundle.js
+/*.ttf
+/*.svg
+/*.woff
+/*.woff2
+/*.eot
