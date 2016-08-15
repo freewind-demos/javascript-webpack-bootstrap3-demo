@@ -23,3 +23,20 @@ npm install --save bootstrap bootstrap-webpack jquery
 
 npm install --save-dev less less-loader style-loader url-loader css-loader exports-loader expose-loader extract-text-webpack-plugin file-loader imports-loader
 ```
+
+Also add content of `webpack.config.js`(`loaders` part) to your project.
+
+About generated strange font file
+---------------------------------
+
+for now, we can just ignore them by adding to `.gitignore`:
+
+```
+/*.ttf
+/*.svg
+/*.woff
+/*.woff2
+/*.eot
+```
+
+Notice the leading `/` which means just ignore the font files under the project root.
